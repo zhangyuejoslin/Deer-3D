@@ -13,9 +13,16 @@
   <img src="figures/teaser.png" width="75%" alt="DEER-3D Teaser">
 </p>
 
-**Key idea:** Iteratively **Diagnose → Decompose → Edit → Retrain** to construct fine-grained counterfactual scenes that strengthen spatial and appearance-based grounding.
+**Key idea:** Iteratively **Decompose→ Diagnose → Edit → Retrain** to construct fine-grained counterfactual scenes that strengthen spatial and appearance-based grounding.
 
 ---
+
+## ✅ To-Do Checklist
+
+- ✅ Release source inference code
+- ⏳ Release source training code
+- ⏳ Release DEER3D edit code
+- ⏳ Release DEER3D edit data
 
 ## 🔧 Environment Setup
 
@@ -57,7 +64,11 @@ Please update your config paths accordingly in
 `scripts/config.py`
 
 
-## 🚀 Inference & Evaluation
-Run evaluation with:
+## 🚀 Inference 
+Run inference with:
 
 `bash scripts/run_eval.sh`
+
+We provide inference checkpoints and train/eval logs.
+
+
