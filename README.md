@@ -26,8 +26,7 @@
 
 ## 🔧 Environment Setup
 
-DEER-3D builds upon the **Chat-Scene** codebase. Please first follow its setup guide:  
-🔗 https://github.com/ZzZZCHS/Chat-Scene
+DEER-3D builds upon the [**Chat-Scene**](https://github.com/ZzZZCHS/Chat-Scene) codebase. Please first follow its setup guide:  
 
 ### 1. Create Conda Environment
 
@@ -47,28 +46,14 @@ After downloading the model, set the path in:
 
 ### 3. Dataset & Feature Preparation
 
-Download dataset and extracted features from Chat-Scene:
-
-🔗 [https://github.com/ZzZZCHS/Chat-Scene/tree/dev/preprocess](https://github.com/ZzZZCHS/Chat-Scene/tree/dev/preprocess)
-
-Includes:
-
--   3D point cloud features
-    
--   Multi-view image features
-    
--   Object bounding boxes
-    
--   Scene-level metadata
-Please update your config paths accordingly in 
+Download dataset and extracted features from [Chat-Scene preprocess](https://github.com/ZzZZCHS/Chat-Scene/tree/dev/preprocess), including 3D point cloud features, multi-view image features, object bounding boxes, and other scene-level metadata. Please update your config paths accordingly in 
 `scripts/config.py`
 
 
-## 🚀 Inference 
-Run inference with:
+## 🚀 Inference & Evaluation
+Run evaluation with:
 
 `bash scripts/run_eval.sh`
 
+
 We provide inference checkpoints and train/eval logs.
-
-
