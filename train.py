@@ -260,7 +260,7 @@ def evaluate(
                 prompt = batch["custom_prompt"][bi]
                 pred_id = int(batch['pred_ids'][bi])
                 type_info = batch['type_infos'][bi]
-                item_id = batch['item_id'][bi]
+                #item_id = batch['item_id'][bi]
                 tmp_pred = pred[bi]
                 save_preds.append({
                     "scene_id": scene_id,
