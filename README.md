@@ -47,7 +47,7 @@ After downloading the model, set the path in:
 ### 3. Dataset & Feature Preparation
 
 Download dataset and extracted features from [Chat-Scene preprocess](https://github.com/ZzZZCHS/Chat-Scene/tree/dev/preprocess), including 3D point cloud features, multi-view image features, object bounding boxes, and other scene-level metadata. Please update your config paths accordingly in 
-`scripts/config.py`
+`scripts/config.py`.
 
 
 ## 🚀 Inference & Evaluation
@@ -56,4 +56,4 @@ Run evaluation with:
 `bash scripts/run_eval.sh`
 
 
-We provide inference checkpoints and train/eval logs.
+We provide inference [checkpoints/train log](https://drive.google.com/drive/folders/1BZlmx0-5ZNgNY8qHuBcPMRRH505z-kWD?usp=sharing) and [eval logs](https://drive.google.com/drive/folders/1_KBiTcmQFeCS_xIo-pB1nVXNEQmWPmbG?usp=sharing).
