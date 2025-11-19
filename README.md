@@ -1,6 +1,8 @@
 # DEER-3D
 ### *Error-Driven Scene Editing for 3D Grounding in Large Language Models*
 
+[![arXiv](https://img.shields.io/badge/arXiv-2505.21876-b31b1b.svg)](https://arxiv.org/pdf/2511.14086)
+
 **Authors:** Yue Zhang, Zun Wang, Han Lin, Jialu Li, Jianing Yang, Yonatan Bitton, Idan Szpektor, Mohit Bansal
 
 ---
@@ -57,3 +59,20 @@ Run evaluation with:
 
 
 We provide inference [checkpoints/train log](https://drive.google.com/drive/folders/1BZlmx0-5ZNgNY8qHuBcPMRRH505z-kWD?usp=sharing) and [eval logs](https://drive.google.com/drive/folders/1_KBiTcmQFeCS_xIo-pB1nVXNEQmWPmbG?usp=sharing).
+
+
+
+## 📚 Acknowledgements
+- This code mainly builds upon [**Chat-Scene**](https://github.com/ZzZZCHS/Chat-Scene) codebase.
+
+
+## BibTeX
+```
+@article{zhang2025deer3d,
+  title={Error-Driven Scene Editing for 3D Grounding in Large Language Models},
+  author={Zhang, Yue and Wang, Zun and Lin, Han and Li, Jialu and Yang, Jianing and Bitton, Yonatan and Szpektor, Idan and Bansal, Mohit},
+  journal={arXiv preprint arXiv:2511.14086},
+  year={2025},
+  url={https://arxiv.org/pdf/2511.14086}
+}
+```
