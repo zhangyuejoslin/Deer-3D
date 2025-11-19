@@ -7,7 +7,7 @@
 
 ## 📌 Overview
 
-**DEER-3D** introduces an *error-driven, model-in-the-loop* scene editing framework for improving **3D visual grounding** in 3D-LLMs. Current 3D-LLMs often fail due to dataset co-occurrence biases and insufficient grounding supervision. DEER-3D resolves these limitations by generating **targeted 3D counterfactual edits** and retraining the model with more informative and bias-breaking visual signals.
+**DEER-3D** introduces an *error-driven* scene editing framework for improving **3D visual grounding** in 3D-LLMs. Current 3D-LLMs often fail due to dataset co-occurrence biases and insufficient grounding supervision. DEER-3D resolves these limitations by generating **targeted 3D counterfactual edits** and retraining the model with more informative and bias-breaking visual signals.
 
 <p align="center">
   <img src="figures/teaser.png" width="75%" alt="DEER-3D Teaser">
